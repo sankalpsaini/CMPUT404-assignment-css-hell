@@ -25,6 +25,7 @@ Additional Information:
 =================
 
 Part 1 HTML File Changes:
+
     - Added "<link rel="stylesheet" href="part1.css" >" in all of the files underneath the pre-existing CSS code. This is so that the newly created stylesheet overwrites the specified elements.
 
     - Also changed all of the href links to the newly named images found in the /images folder
