@@ -1,0 +1,21 @@
+body {
+    background-color: #e6e0b8;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Snell Roundhand";
+}
+
+div {
+    font-family: papyrus;
+}
+
+p {
+    color: black;
+    font-family: florence, cursive;
+    }
+
+img {
+    filter:saturate(0%) sepia(100%) contrast(150%) saturate(150%);
+    opacity: 0.6;
+}
