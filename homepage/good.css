@@ -1,0 +1,158 @@
+/* EVERYTHING */
+
+.bg-image {
+    filter: blur(8px);
+    height: 100%;
+    width: 100%;
+}
+
+.bg-text {
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+
+    top: 22%;
+    left: 50%;
+    width: 70%;
+    padding: 20px;
+
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border: 3px solid #C0C0C0;
+    position: absolute;
+
+    transform: translate(-50%, -50%);
+}
+
+.emailPhone {
+    font-size: 20px;
+    color: #C0C0C0;;
+}
+
+/* TOP HEADER */
+
+
+.nameHeaderInfo {
+    /* background-color: #1a1a1a; */
+    margin-top: 0px;
+    top: 0%;
+    /* margin-right: 200px;
+    margin-left: 20px; */
+}
+
+.nameHeaderInfoSection {
+    display: inline-block;
+}
+
+.nameHeader {
+    display: inline-block;
+    /* padding-left: 70%; */
+}
+
+.personalInfo {
+    display: inline-block;
+    /* padding-right: 30%; */
+    /* padding-left: 200px; */
+    font-size: 25px;
+}
+
+.name {
+    /* display: inline-block; */
+    color: #01B0D3;
+    font-size: 50px;
+}
+
+.title {
+    /* padding-top: 0px; */
+    font-size: 25px;
+    color: #ffffff;
+}
+
+
+/* HORIZONTAL LINE */
+
+
+hr {
+    border: 1px solid white;;
+}
+
+
+/* BODY */
+
+
+body {
+    color: #ffffff;
+    background-color: #242333;
+}
+
+.bodyParent {
+    display: inline-block;
+}
+
+.bodySection {
+    padding-left: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    color: #01B0D3;
+}
+
+.subTitle {
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+li {
+    font-size: 20px;
+    color: #C0C0C0;
+    line-height: 1.5;
+}
+
+.headshot {
+    float: right;
+    margin-right: 50px;
+    margin-left: 100px;
+    height: 700px;
+    border-radius: 20%;
+    transition: all 1s;
+
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+    transition: all .3s ease;
+
+    opacity: 0.8;
+}
+
+.headshot:hover {
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+.text {
+    padding-left: 20px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #C0C0C0;
+}
+
+.skills {
+    margin-left: 30px;
+}
+
+.skillsSection {
+    display: inline-block;
+    width: 33%;
+}
+
+.skillTitle {
+    font-size: 30px;
+}
